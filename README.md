@@ -3,6 +3,188 @@
 **[nof1.ai](nof1.ai)** & **clawdbot** collaboration. We get the best practices from alpha arena trading seasons and bring it to **clawdbot!** All **top** AI agents, **realtime** monitoring and news research, gather info from **private insiders** and many other! **Using Hyperliquid API.**
 
 ---
+```
+                          ┌────────────────────────────┐
+                          │        User / Operator     │
+                          │  Strategy · Feedback · Chat│
+                          └──────────────┬─────────────┘
+                                         │
+                              (Conversation via Clawdbot)
+                                         │
+┌────────────────────────────────────────▼────────────────────────────────────────┐
+│                            Conversational Interface                             │
+│                                (Clawdbot Layer)                                 │
+│  - Strategy discussion                                                          │
+│  - Trade explanations                                                           │
+│  - Pre / Post trade analysis                                                    │
+└──────────────────────────────┬──────────────────────────────────────────────────┘
+                               │
+                               │ feedback / queries
+                               ▼
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                        Decision Engine (Alpha Arena Core)                        │
+│  - nof1.ai Alpha Arena models                                                    │
+│  - Strategy scoring & decay                                                      │
+│  - Self-evaluation loop                                                          │
+│  - Explainable decision output                                                   │
+└───────────────┬───────────────────────────────┬──────────────────────────────────┘
+                │                               │
+     signals    │                               │ decisions
+                │                               │
+                ▼                               ▼
+┌──────────────────────────────┐     ┌────────────────────────────────────────────┐
+│       Market Intelligence     │     │              Trading Engine               │
+│  - Twitter/X sentiment        │     │  - Execution lifecycle                    │
+│  - Narrative detection        │     │  - Risk & sizing modules                  │
+│  - Political signals          │     │  - 24/7 autonomous trading                │
+│    (Trump, macro events)      │     │                                           │
+└───────────────┬──────────────┘     └───────────────┬────────────────────────────┘
+                │                                      │
+                │ signals                              │ orders
+                ▼                                      ▼
+┌──────────────────────────────┐     ┌────────────────────────────────────────────┐
+│     Signal History & Impact   │     │         Execution Backends                │
+│  - Signal effectiveness       │     │  - Hyperliquid API (Crypto)               │
+│  - Weight adjustment          │     │  - Stocks broker                          │
+└───────────────┬──────────────┘     │  - Commodities venue                       │
+                │                    └───────────────┬────────────────────────────┘
+                │ trade data                          │ fills
+                ▼                                      ▼
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                       Trade Logging & Evaluation Layer                           │
+│  - Full trade logs                                                               │
+│  - Strategy performance scoring                                                  │
+│  - Feedback into Decision Engine                                                 │
+└──────────────────────────────────────────────────────────────────────────────────┘
+
+                    (Local-first · User-controlled · Research mode)
+```
+---
+## 🔑 Key Features
+
+### 🧠 Alpha Arena–Trained Decision Core
+
+* Built on the **nof1.ai Alpha Arena** experiment
+* Bootstrapped with top-performing models and strategies from the arena
+* Uses a continuous **self-evaluation loop** to learn what works and drop what doesn’t
+* Automatically boosts winning logic and decays underperforming strategies
+
+---
+
+### 📈 Autonomous Multi-Asset Trading (Experimental)
+
+* 24/7 autonomous trading in **experimental mode**
+* Supported markets:
+
+  * Crypto (via **Hyperliquid API**)
+  * Stocks
+  * Commodities
+* Full trade lifecycle:
+
+  * market analysis
+  * decision making
+  * trade execution
+  * result logging
+
+> ⚠️ Research & experimentation only. Not financial advice.
+
+---
+
+### 🐦 Real-Time Sentiment Intelligence
+
+* Real-time **Twitter/X sentiment** analysis
+* Tracks:
+
+  * macro narratives
+  * market triggers
+  * sharp shifts in crowd mood
+* Dedicated module for **political & influencer signals**,
+  including **Donald Trump posts** as market-moving events
+
+---
+
+### 💬 Conversational Trading Assistant
+
+* Talk to the agent via **Clawdbot**
+* You can:
+
+  * discuss strategy *before* a trade
+  * question the logic *during* execution
+  * break down results *after* the fact
+* Supports:
+
+  * Q&A
+  * advice
+  * alternative scenarios
+  * “what-if” analysis
+
+---
+
+### 🧪 Strategy Feedback Loop
+
+* Users can:
+
+  * suggest strategies
+  * challenge decisions
+  * ask for reasoning
+* The agent:
+
+  * explains entries and exits
+  * compares alternatives
+  * feeds human input back into future decisions
+
+---
+
+### 📊 Full Trade Transparency
+
+* Every trade is logged with:
+
+  * entry rationale
+  * signals used
+  * decision model context
+  * final outcome
+* Trade history is used for:
+
+  * strategy scoring
+  * learning from mistakes
+  * post-trade analysis
+
+---
+
+### 🧩 Modular & Extensible Architecture
+
+* Plugin-based design:
+
+  * execution engines
+  * data sources
+  * decision models
+* Easy to plug in:
+
+  * new markets
+  * new signals
+  * alternative strategies
+
+---
+
+### 🔐 Local-First & User-Controlled
+
+* Runs locally or on your own infrastructure
+* Full control over API keys, configs, and behavior
+* Explainable decisions — no black box vibes
+
+---
+
+### 🚀 Research-Driven, Not Hype-Driven
+
+* Built for:
+
+  * autonomous agent research
+  * decision quality analysis
+  * reproducible experiments
+* No profit promises — just learning loops and better decisions
+
+---
+
 
 ### Flexibility and Token Savings
 
