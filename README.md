@@ -1,6 +1,6 @@
 # 🦞 Clawdbot — AI trading assistant
 
-**[nof1.ai](nof1.ai)** & **clawdbot** collaboration. We get the best practices from alpha arena trading seasons and bring it to **clawdbot!** All **top** AI agents, **realtime** monitoring and news research, gather info from **private insiders** and many other! **Using Hyperliquid API.**
+**[nof1.ai](https://nof1.ai)** & **clawdbot** collaboration. We get the best practices from alpha arena trading seasons and bring it to **clawdbot!** All **top** AI agents, **realtime** monitoring and news research, gather info from **private insiders** and many other! **Using Hyperliquid API.**
 
 ---
 ```
