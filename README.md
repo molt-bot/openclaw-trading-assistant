@@ -62,17 +62,24 @@
 ---
 ## Key Features
 
-### Alpha Arena–Trained Decision Core
+> [!TIP]
+> Click to expand for full details.
+
+<details>
+<summary><b>🧠 Alpha Arena–Trained Decision Core</b></summary>
 
 * Built on the **nof1.ai Alpha Arena** experiment
 * Bootstrapped with top-performing models and strategies from the arena
 * Uses a continuous **self-evaluation loop** to learn what works and drop what doesn’t
 * Automatically boosts winning logic and decays underperforming strategies
 
+</details>
+
 ---
 
-### Autonomous Multi-Asset Trading (Experimental)
-
+<details>
+<summary><b>📈 Autonomous Multi-Asset Trading (Experimental)</b></summary>
+  
 * 24/7 autonomous trading in **experimental mode**
 * Supported markets:
 
@@ -88,9 +95,12 @@
 
 > ⚠️ Research & experimentation only. Not financial advice.
 
+</details>
+
 ---
 
-### Real-Time Sentiment Intelligence
+<details>
+<summary><b>🐦 Real-Time Sentiment Intelligence</b></summary>
 
 * Real-time **Twitter/X sentiment** analysis
 * Tracks:
@@ -100,11 +110,14 @@
   * sharp shifts in crowd mood
 * Dedicated module for **political & influencer signals**,
   including **Donald Trump posts** as market-moving events
+  
+</details>
 
 ---
 
-### Conversational Trading Assistant
-
+<details>
+<summary><b>💬 Conversational Trading Assistan</b></summary>
+  
 * Talk to the agent via **Clawdbot**
 * You can:
 
@@ -118,9 +131,13 @@
   * alternative scenarios
   * “what-if” analysis
 
+</details>
+
 ---
 
-### Strategy Feedback Loop
+<details>
+<summary><b>🧪 Strategy Feedback Loop</b></summary>
+  
 
 * Users can:
 
@@ -133,9 +150,13 @@
   * compares alternatives
   * feeds human input back into future decisions
 
+</details>
+
 ---
 
-### Full Trade Transparency
+<details>
+<summary><b>📊 Full Trade Transparency</b></summary>
+  
 
 * Every trade is logged with:
 
@@ -149,9 +170,12 @@
   * learning from mistakes
   * post-trade analysis
 
+</details>
+
 ---
 
-### Modular & Extensible Architecture
+<details>
+<summary><b>🧩 Modular & Extensible Architecture</b></summary>
 
 * Plugin-based design:
 
@@ -164,24 +188,32 @@
   * new signals
   * alternative strategies
 
+</details>
+
 ---
 
-### Local-First & User-Controlled
+<details>
+<summary><b>🔐 Local-First & User-Controlled</b></summary>
+
 
 * Runs locally or on your own infrastructure
 * Full control over API keys, configs, and behavior
 * Explainable decisions — no black box vibes
 
+</details>
+
 ---
-
-### Research-Driven, Not Hype-Driven
-
+<details>
+<summary><b>🚀 Research-Driven, Not Hype-Driven</b></summary>
+  
 * Built for:
 
   * autonomous agent research
   * decision quality analysis
   * reproducible experiments
 * No profit promises — just learning loops and better decisions
+
+</details>
 
 ---
 
