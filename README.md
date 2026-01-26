@@ -60,160 +60,53 @@
                     (Local-first · User-controlled · Research mode)
 ```
 ---
-## Key Features
+## 🦞 Features: Clawdbot x Alpha Arena Edition
 
-> [!TIP]
-> Click to expand for full details.
+### 1. ⚔️ The "Alpha Arena" Trading Engine
 
-<details>
-<summary><b>🧠 Alpha Arena–Trained Decision Core</b></summary>
+*Powered by the winning heuristics from the nof1.ai experiment.*
 
-* Built on the **nof1.ai Alpha Arena** experiment
-* Bootstrapped with top-performing models and strategies from the arena
-* Uses a continuous **self-evaluation loop** to learn what works and drop what doesn’t
-* Automatically boosts winning logic and decays underperforming strategies
+* **Hyperliquid Native Execution:** Direct integration with Hyperliquid L1 for sub-second execution on Perps (Crypto) and Spot (synthetics for Stocks/Commodities).
+* **Best-Model Initialization:** The agent is pre-loaded with the specific system prompts and logical constraints of the top-performing Alpha Arena bots (e.g., the specific risk-aversion parameters of the winning Qwen/Claude architectures).
+* **The "1-2% Rule" Hard-Lock:** Hard-coded risk management guardrails that override LLM hallucinations. The bot *cannot* open a position size >2% of equity, ensuring survival over volatility.
+* **Trend-Following Constraint:** Implements the "Don't Catch Knives" logic—trades are only executed if aligned with higher-timeframe moving averages.
 
-</details>
+### 2. 🐦 Semantic Sentiment & "Trump-Tracker"
 
----
+*Quantifying the narrative before price moves.*
 
-<details>
-<summary><b>📈 Autonomous Multi-Asset Trading (Experimental)</b></summary>
-  
-* 24/7 autonomous trading in **experimental mode**
-* Supported markets:
+* **Dedicated "Vibe" Watcher:** Continuous scanning of X (Twitter) for high-impact accounts (e.g., POTUS, Elon Musk, key macroeconomists).
+* **The "Trump Index":** A specific sentiment weight assigned to Trump's posts. If volatility is detected in his language regarding tariffs or crypto, the bot automatically tightens trailing stops or pauses entries.
+* **Noise Filtering:** Uses a local SLM (Small Language Model) to classify tweets as "Noise," "FUD," or "Alpha" before they influence trading decisions.
 
-  * Crypto (via **Hyperliquid API**)
-  * Stocks
-  * Commodities
-* Full trade lifecycle:
+### 3. 🧠 Self-Improving Strategy Loop
 
-  * market analysis
-  * decision making
-  * trade execution
-  * result logging
+*It doesn't just trade; it evolves.*
 
-> ⚠️ Research & experimentation only. Not financial advice.
-
-</details>
-
----
-
-<details>
-<summary><b>🐦 Real-Time Sentiment Intelligence</b></summary>
-
-* Real-time **Twitter/X sentiment** analysis
-* Tracks:
-
-  * macro narratives
-  * market triggers
-  * sharp shifts in crowd mood
-* Dedicated module for **political & influencer signals**,
-  including **Donald Trump posts** as market-moving events
-  
-</details>
-
----
-
-<details>
-<summary><b>💬 Conversational Trading Assistan</b></summary>
-  
-* Talk to the agent via **Clawdbot**
-* You can:
-
-  * discuss strategy *before* a trade
-  * question the logic *during* execution
-  * break down results *after* the fact
-* Supports:
-
-  * Q&A
-  * advice
-  * alternative scenarios
-  * “what-if” analysis
-
-</details>
-
----
-
-<details>
-<summary><b>🧪 Strategy Feedback Loop</b></summary>
-  
-
-* Users can:
-
-  * suggest strategies
-  * challenge decisions
-  * ask for reasoning
-* The agent:
-
-  * explains entries and exits
-  * compares alternatives
-  * feeds human input back into future decisions
-
-</details>
-
----
-
-<details>
-<summary><b>📊 Full Trade Transparency</b></summary>
-  
-
-* Every trade is logged with:
-
-  * entry rationale
-  * signals used
-  * decision model context
-  * final outcome
-* Trade history is used for:
-
-  * strategy scoring
-  * learning from mistakes
-  * post-trade analysis
-
-</details>
-
----
-
-<details>
-<summary><b>🧩 Modular & Extensible Architecture</b></summary>
-
-* Plugin-based design:
-
-  * execution engines
-  * data sources
-  * decision models
-* Easy to plug in:
-
-  * new markets
-  * new signals
-  * alternative strategies
-
-</details>
-
----
-
-<details>
-<summary><b>🔐 Local-First & User-Controlled</b></summary>
+* **Automated Post-Mortem:** Every closed trade triggers a self-reflection cycle. The bot logs the *Expected Outcome* vs. *Actual Outcome*.
+* **Dynamic Strategy Scoring:**
+* **Wins:** The prompt/logic used is tagged as "High Probability" and weighted higher for future decisions.
+* **Losses:** The specific reasoning chain is deprecated. If a specific strategy (e.g., "Mean Reversion on SOL") fails 3 times, it is "benched."
 
 
-* Runs locally or on your own infrastructure
-* Full control over API keys, configs, and behavior
-* Explainable decisions — no black box vibes
+* **RAG-Based Memory:** Before entering a new trade, the bot queries its own vector database for similar historical setups to avoid repeating past mistakes.
 
-</details>
+### 4. 💬 Agentic Collaboration & Council
 
----
-<details>
-<summary><b>🚀 Research-Driven, Not Hype-Driven</b></summary>
-  
-* Built for:
+*You are the CIO, Clawdbot is the Lead Trader.*
 
-  * autonomous agent research
-  * decision quality analysis
-  * reproducible experiments
-* No profit promises — just learning loops and better decisions
+* **Two-Way Strategy Debates:**
+* *User:* "I think Oil is going to tank because of the OPEC meeting."
+* *Bot:* Checks technicals/sentiment and responds: "Technicals disagree (RSI is oversold), but given your macro view, I recommend a small short with a tight stop at $72. Execute?"
 
-</details>
+
+* **Natural Language Audits:** Ask complex queries like *"Show me my PnL breakdown for AI-related tokens this week and tell me where we messed up"* and receive a text summary + chart analysis.
+* **Proactive Alerts:** The bot pings you *before* major events (CPI, FOMC) to discuss adjusting risk parameters.
+
+### 5. 🛡️ Non-Custodial Security
+
+* **Local Key Storage:** Hyperliquid API keys are stored in an encrypted local vault (`~/.clawd/vault`).
+* **"Human-in-the-Loop" Mode:** Configurable permissions. You can set the bot to "Auto-Trade" for small amounts, but require "Human Approval" via Telegram button for large cap trades.
 
 ---
 
