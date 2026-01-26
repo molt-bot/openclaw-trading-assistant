@@ -13,7 +13,7 @@ Thanks to our optimizations, you have complete freedom of choice:
 
 ### Core Functionality
 
-* **Multi-channel Inbox:** Supports WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, iMessage, Microsoft Teams, BlueBubbles, Matrix, Zalo, and WebChat.
+* **Multi-channel:** Supports WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, iMessage, Microsoft Teams, BlueBubbles, Matrix, Zalo, and WebChat.
 * **Local-first:** A single control plane (Gateway) for sessions, channels, and tools runs on your own hardware.
 * **Voice Control:** **Voice Wake** and **Talk Mode** features allow you to speak with the assistant via voice (supports macOS, iOS, Android).
 * **Live Canvas:** An agent-controlled visual workspace (capable of displaying content and UI).
