@@ -60,9 +60,9 @@
                     (Local-first · User-controlled · Research mode)
 ```
 ---
-## 🔑 Key Features
+## Key Features
 
-### 🧠 Alpha Arena–Trained Decision Core
+### Alpha Arena–Trained Decision Core
 
 * Built on the **nof1.ai Alpha Arena** experiment
 * Bootstrapped with top-performing models and strategies from the arena
@@ -71,7 +71,7 @@
 
 ---
 
-### 📈 Autonomous Multi-Asset Trading (Experimental)
+### Autonomous Multi-Asset Trading (Experimental)
 
 * 24/7 autonomous trading in **experimental mode**
 * Supported markets:
@@ -90,7 +90,7 @@
 
 ---
 
-### 🐦 Real-Time Sentiment Intelligence
+### Real-Time Sentiment Intelligence
 
 * Real-time **Twitter/X sentiment** analysis
 * Tracks:
@@ -103,7 +103,7 @@
 
 ---
 
-### 💬 Conversational Trading Assistant
+### Conversational Trading Assistant
 
 * Talk to the agent via **Clawdbot**
 * You can:
@@ -120,7 +120,7 @@
 
 ---
 
-### 🧪 Strategy Feedback Loop
+### Strategy Feedback Loop
 
 * Users can:
 
@@ -135,7 +135,7 @@
 
 ---
 
-### 📊 Full Trade Transparency
+### Full Trade Transparency
 
 * Every trade is logged with:
 
@@ -151,7 +151,7 @@
 
 ---
 
-### 🧩 Modular & Extensible Architecture
+### Modular & Extensible Architecture
 
 * Plugin-based design:
 
@@ -166,7 +166,7 @@
 
 ---
 
-### 🔐 Local-First & User-Controlled
+### Local-First & User-Controlled
 
 * Runs locally or on your own infrastructure
 * Full control over API keys, configs, and behavior
@@ -174,7 +174,7 @@
 
 ---
 
-### 🚀 Research-Driven, Not Hype-Driven
+### Research-Driven, Not Hype-Driven
 
 * Built for:
 
