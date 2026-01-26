@@ -1,13 +1,6 @@
-# 🦞 Clawdbot — Personal AI Assistant
+# 🦞 Clawdbot — AI trading assistant
 
-**Clawdbot** is a personal AI assistant that runs locally on your devices. It unifies your communication into a single flow, answering you on the channels you already use.
-
-### 🚀 From a Team of Enthusiasts: Our Mission
-
-We are a community of enthusiasts who have taken the original project and significantly refined it. Our goal is to make a powerful personal assistant accessible to everyone **completely free of charge**, without the need to pay for expensive API subscriptions.
-
-**❗ Critical Difference from the Original:**
-We have fixed numerous critical bugs present in the original version. Most importantly, **the original model suffers from defects leading to colossal and unjustified token overconsumption.** We have eliminated this issue: our version is optimized, stable, and does not waste resources.
+**[nof1.ai](nof1.ai)** & **clawdbot** collaboration. We get the best practices from alpha arena trading seasons and bring it to **clawdbot!** All **top** AI agents, **realtime** monitoring and news research, gather info from **private insiders** and many other! **Using Hyperliquid API.**
 
 ---
 
